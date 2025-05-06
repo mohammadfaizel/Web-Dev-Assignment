@@ -1,0 +1,531 @@
+/* Media scss*/
+@media (min-width:1920px){
+    .ecosystem img{height:430px !important;}
+    .fullimg img{height:580px !important;}
+}
+@media (min-width:1600px){
+    .ecosystem img{height:380px;}
+    .fullimg img{height:380px;}
+}
+
+@media (max-width: 1240px) {
+    .banner_wrap{ height:auto; margin-bottom: -8px;}
+  nav ul li a {
+    font-size: 0.60rem;
+    margin: 0 20px;
+  }
+  .brand:before{right:-25px;}
+}
+@media (max-width: 1024px) {
+  nav ul li a {
+    margin: 0 15px;
+  }
+  .contol_custom {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+    justify-content: end;
+    margin-bottom: 20px;
+  }
+  .right_img_map{ height:680px;}
+  .right_img_map img{ height:100%;}
+  .floorplanwrap .contol_custom{top:57%;}
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .locationtex li:last-child {
+        margin-bottom:0px;
+    }
+}
+
+@media (max-width: 991px) {
+	.constructionwrap {margin-top:90px;}
+    .mobsha{display:flex !important;}
+    .nav-mobile{right:8px; display:block}
+    .pad100 {padding: 50px 0;}
+    .padb100 {padding-bottom: 50px;}
+    .padt100 {padding-top: 50px;}
+    .navigation{ background:#000;}
+    .brand:before{display:none;}
+    nav ul li a{ letter-spacing:1px;}
+    .ul_text_paira{ padding-left:0;}
+    .listingtext ul{ width:100%}
+    .igbctextwrap{ border-right:0; padding-bottom: 30px;}
+    .bricstextwrap{ border-top:1px solid #c3c3c3;}
+    .floorplanwrap .hdtag{ margin-bottom:30px;}
+    .floor-slider{ margin-top:20px;}
+    .contol_custom span {width: 50px; height: 50px;}
+    .masterbtn{right:160px;}
+    .masterbtn a{ padding:14px 25px;}
+    .navigation{ height:60px; border-bottom:none;}
+    nav{ height:60px;}
+    .floorplanwrap .contol_custom{top:0%;}
+    .right_img_map{ height:auto;}
+    .right_img_map img{ height:auto;}
+    footer .right_nav ul li a{ font-size:0.75rem;}
+      nav ul li a {
+        margin: 0px;
+        padding: 10px 15px;
+        font-size:12px;
+      }
+      .navigation nav ul {
+        width: 100%;
+        background: transparent;
+        height: 220px;
+        position: absolute;
+        top: 200px;
+        left: 0;
+      }
+      nav ul .enbtn {
+        height: auto;
+        display: none;
+      }
+      /*.banner_wrap #ganga-video {*/
+      /*  height: 100%;*/
+      /*  width:100%;*/
+      /*}*/
+      .hdtag {
+        padding-left: 15;
+      }
+      .text_paira {
+        padding-left: 0;
+        /*margin-bottom: 30px;*/
+        margin-top: 15px;
+      }
+      .text_paira::after {
+        display: none;
+      }
+      .hdtag br {
+        display: none;
+      }
+      .hdtag, .nrheading {
+        font-size: 2.5rem;
+      }
+      footer .right_nav {
+        text-align: left;
+      }
+      footer .right_nav ul br {
+        display: none;
+      }
+      footer .right_nav ul li {
+        margin-left: 0;
+        margin-right: 15px;
+      }
+      footer .right_nav .media_icon ul li {
+        margin-left: 0;
+        margin-right: 15px;
+      }
+      .submitbtn {
+        margin-top: 25px;
+      }
+      .viewbtn {
+        margin-top: 0px;
+      }
+      .viewbtn .btns {
+        margin-left: 0px;
+      }
+      footer .left_add .nomail {
+        margin-top: 0;
+      }
+      footer .right_nav {
+        margin-top: 30px;
+      }
+      nav ul li a::before {
+        display: none;
+      }
+      footer .right_nav ul li a::before {
+        bottom: 8px;
+      }
+      .fixedbtneq {
+        width: 100%;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        z-index: 555;
+        display: block;
+      }
+      .copyright p{ text-align:center;}
+      .fixedbtneq a {
+        display: block;
+        background: #000;
+        text-align: center;
+        padding: 15px;
+        color: #ffffff;
+        text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+       
+      }
+      .copyright {
+        margin-bottom: 51px;
+      }
+      footer .right_nav ul span {
+        font-size: 13px;
+        margin: 0 10px 0 0;
+        color: #012a4a;
+        position: relative;
+        top: 0px;
+        display: inline-block;
+      }
+      .innerbrics{ padding-left:0px;}
+      .mrgl {margin-left: 0px !important;}
+      .showlogoigbc,.showlogobrics{display:none;}
+      .innerigbc,.innerbrics{opacity:1; visibility:visible;}
+      .centertext img {width: 80%;}
+      .moblocation{display:block;}
+      .right_img_map{display:none;}
+      .banner_wrap{margin-top:60px;}
+      .amenslider{ margin-top:30px;}
+      .closejoy{ top:40px; width:40px; height:40px;}
+      .copyright {border-bottom: 1px solid #fff;}
+      .igbctextwrap ul li img,.bricstextwrap ul li img{display:none;}
+      .s-input > label > i{ font-size:14px;}
+      .igbcgridwra{ border:none;}
+      .igbctextwrap ul{ padding-top:0;}
+      .prd-0{ padding-right:15px;}
+      .pld-0{ padding-left:15px;}
+      
+      .joygrid .hdtag {
+          padding-left:0px;
+      }
+      
+      
+}
+
+@media (max-width: 767px) {
+	.conshd{margin-bottom:20px !important;}
+	
+	/*#construction_data{padding-top:30px !IMPORTANT}*/
+	 .myselectgrid {margin-top: 15px;}
+    .floor-slider{ margin-top:0;}
+    .floor-slider .slick-slide{ margin:0 10px;}
+    .s-input > label{ font-size:12px;}
+    .gridwrap .imgitems{ width:48%;}
+    .gridwrap .imgitems:last-child{ width:100%;}
+    .innergridwrap.slidleft{overflow-y:scroll;}
+    .wdt80,.innerbrics p,.innerigbc p{ width:100%;}
+    .s-input > label > i{ margin-right:5px; width: 25px; height: 25px;}
+    .s-input > input:checked + label > i:after{margin-top: -5px; margin-left: -6px;}
+    .title_text{ margin-bottom:15px; display:block;}
+    .gridbg{ height:80%;}
+    .amenslider .slick-slide,.amenslider .slick-list{ margin:0;}
+    .innerimg strong{ padding:8px 0;}
+    .gdimg img{ height:350px; filter: none; -webkit-filter: grayscale(0);}
+    .innergridwrap{display:block; padding: 50px 15px;}
+    .amenitiesslidwrap .hdtag{font-size: 2rem; width: 85%; margin: 0;}
+    p{ font-sizE:14px;}
+    .banner_wrap{ height:100vh; margin-top:60px}
+    .banner_wrap #ganga-video {width: 100%; height: 100vh; object-fit: cover; object-position: 45%;}
+    .desksh{display:none;}
+    .mobsh{display:block;}
+    .s-input > label > i {
+    font-size: 12px;
+}
+  .banner_wrap .banner_text .baninner .banner-logo img {
+    width: 50px;
+  }
+  .brand {
+    position: absolute;
+    left: 15px;
+    height:100px !important;
+    width:110px;
+    
+  }
+  .hdtag4 {
+      text-align:center;
+  }
+  
+  .brand:after {
+    
+    top: 99%;
+    border-width:31px 56px 0 56px;
+  }
+  nav ul li a {
+    margin: 0;
+  }
+  .banner_wrap .banner_text .baninner .sub_title {
+    font-size: 1.5rem;
+  }
+  .banner_wrap .banner_text .baninner .banhd {
+    font-size: 3rem;
+  }
+  .hdtag, .nrheading {
+    font-size: 1.8rem;
+  }
+  .contactwrap .conformdetails .custom-checkbox span {
+    font-size: 13px;
+  }
+  footer .right_nav ul li {
+    margin-right: 10px;
+    line-height: 2;
+  }
+  footer {
+    padding: 35px 0px;
+  }
+	.sw_footer{padding:50px 0px !important;}
+  .copyright p {
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+  }
+  .submitbtn {
+    float: left;
+  }
+  #contact-form {
+    margin-top: 10px;
+  }
+  .contactwrap .conformdetails .custom-checkbox input[type=checkbox] ~ b {
+    width: 25px;
+    height: 25px;
+  }
+  .contactwrap .conformdetails .custom-checkbox span {
+    margin-left: 4px;
+  }
+  .contactwrap .conformdetails .form-group.input-material {
+    margin-bottom: 30px;
+  }
+  .contactwrap .conformdetails .form-group.input-material span {
+    font-size: 11px;
+  }
+  .contactwrap .conformdetails {
+    padding: 20px;
+  }
+  .contactwrap .conformdetails {
+    margin-top: 25px;
+  }
+  footer .right_nav .media_icon {
+    margin-top: 25px;
+  }
+  .submitbtn .btns {
+    width: 130px;
+    max-width: 130px;
+    padding: 12px 0;
+  }
+  footer .right_nav ul li a::before {
+    bottom: 4px;
+  }
+  .banner_wrap .banner_text .baninner .ban_bottom_wrap a {
+    font-size: 11px;
+    margin-left: 15px;
+  }
+  footer .right_nav .media_icon {
+    position: relative;
+  }
+  .banner_wrap .banner_text .baninner .banner-logo {
+    bottom: 20px;
+  }
+  .left_add br {
+    display: none;
+  }
+  .cusmrg .contol_custom{ display:flex; right: 5px; top:5px;}
+  .newsgrid img{ height:auto;}
+  .hdtag2{line-height:1.5; font-size:1.5rem;}
+    .philosphycenterban{ height:670px;}
+    .discwavwmob { bottom: -25px !important; width: 200px !important;}
+    .contol_custom span {width: 40px; height: 40px;}
+    /*.masterbtn {left: 15px; position:static;}*/
+    .floorplanwrap .container .row{position:static;}
+    .floorplanwrap .container{position:relative;}
+    .floorplanwrap{ padding-bottom:70px !important;}
+    .masterbtn{ right:15px; bottom:-70px;}
+    .masterbtn a {padding: 10px 25px;}
+    .banbtns button{ padding:10px 20px;}
+    .centertext img{ width:100%;}
+    .floorplanwrap .contol_custom{ width:100%; display:none;}
+    .floorplanwrap .contol_custom span.slide-left{position:absolute; left:0; z-index: 88; top: 215px;}
+    .floorplanwrap .contol_custom span.slide-right{position:absolute; right:0; z-index: 88; top: 215px;}
+    .right_img img,.moblocation img{ height:400px;}
+    /*.amenitiesslidwrap .contol_custom{top:430px;}*/
+    .closejoy{ top:60px; right:30px;}
+    .banerwdth{background-attachment: unset; height:600px;}
+    .listingtext ul li{ font-size:14px; opacity:0.8; margin-bottom:20px;}
+    .locationtextslider .slick-dots{ margin-top:15px;}
+    .innerigbc,.innerbrics{margin-top: 15px;}
+    
+    .distance {
+        height:auto;
+        background:none;
+        margin-bottom:0px;
+        margin-top:20px;
+    }
+    .distance ul {
+    margin-bottom:0px;
+    flex-wrap:wrap;
+}
+
+.distance ul li {
+    width:100% !important;
+    border-bottom:1px solid #ccc;
+    padding-bottom:10px;
+    display:flex;
+    align-items:center;
+    text-align:left;
+    font-size:13px;
+    padding-top:10px;
+}
+/*.distance ul li br {*/
+/*    display:none;*/
+/*}*/
+.distance ul li:last-child  {
+    border-bottom:0px;
+    padding-bottom:0px;
+}
+.circle {
+    display:block !important;
+    margin:0px;
+    margin-right:10px;
+    width:15px;
+    height:15px;
+}
+
+.circle::after {
+    display:none;
+}
+    
+}
+
+@media(max-width:991px){
+    .distance ul {
+   
+    align-items: inherit;
+    }
+    .distance ul li{line-height:20px;}
+    .circle{margin-top: -11px;}
+    .hdtag4 span {
+    font-size: 61px;
+}
+
+.hdtag4 {
+   
+    font-size: 40px;
+}
+
+.banerwdth {
+   
+    height: 80vh;
+}
+
+.brand {
+   
+    height: 108px;
+}
+
+.banner_wrap img {
+    height: 70vh;
+}
+
+.watermar {
+    
+    bottom: 9px;
+}
+
+.navigation .nvbg {
+    height:100vh;
+}
+
+.line_animation {
+    display:none;
+}
+
+
+.closejoy img {
+    width:13px;
+}
+
+}
+@media (max-width: 500px) {
+    .gridwrap{display:block;}
+    .gridwrap .imgitems{ width:100%;}
+    .banbtns button {padding: 10px 20px;font-size: 13px;}
+    .circle{display:none;}
+    .distance{height:auto;background: none;margin: 0;}
+    .banner_wrap img {
+    height: 100vh;
+}
+
+.distance ul {
+   
+    flex-wrap: wrap;
+}
+
+.distance ul li {
+   
+    width: 50%;
+    text-align: left;
+    /*margin: 5px 0;*/
+    font-size: 13px;
+}
+
+.hdtag4 {
+    font-size: 30px;
+}
+
+.hdtag4 span {
+    font-size:54px;
+}
+
+.banerwdth {
+    height: 63vh;
+}
+
+.locationtex li span {
+    width: 60px;
+    height: 56px;
+    padding: 12px;
+}
+
+.banner_wrap #ganga-video {
+    width: 100%;
+    height: auto;
+    object-fit: inherit;
+}
+
+.banner_wrap {
+    height: auto;
+    margin-top: 60px;
+}
+
+.watermar{bottom:7px;}
+
+.text_paira::after{display:none;}
+
+.joygrid .hdtag { padding-left:0px;}
+.joygrid .text_paira {padding-left: 0;}
+
+.joygrid .title_text {margin-top: 0;}
+
+.ecosystem .ecosystem-title:last-child{padding:20px 0 0;}
+.ecosystem .ecosystem-title p{margin-bottom:0;}   
+
+.centertext .caption{width:100%;}
+.hdtag4 br{display:block !important;}
+
+}
+@media (max-width: 400px) {
+.kwt-file__drop-area label {
+    position: absolute;
+    bottom: -16px;
+    width: 100%;
+    font-size: 10px;
+}
+  .contactwrap .conformdetails .custom-checkbox input[type=checkbox] ~ b {
+    width: 20px;
+    height: 20px;
+  }
+  .contactwrap .conformdetails .custom-checkbox span {
+    font-size: 11px;
+  }
+  .gdimg img{ height:300px;}
+  
+  .subbtns {
+    
+    float: inherit;
+}
+}
+@media(max-width:330px){
+    .s-input > label {
+    font-size: 9px;
+}
+.gdimg img{ height:300px;}
+}
